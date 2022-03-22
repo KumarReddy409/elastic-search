@@ -121,7 +121,7 @@ public class SearchService {
 
         jsonData.put("number_of_shards", 2);
         jsonData.put("number_of_replicas", 1);
-        jsonData.put("refresh_interval", "30s");
+        //jsonData.put("refresh_interval", "2s");
 
         index.put("index", jsonData);
         settings.put("settings", index);
